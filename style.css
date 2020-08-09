@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+#nav-bar {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.navbar {
+    background-image: linear-gradient(to left, #004624, #00D16D);
+    padding: 0 !important;
+}
+
+
+
+.navbar-brand img {
+    height: 60px;
+    padding-left: 20px;
+}
+
+
+.navbar-nav li {
+    padding: 0 10px;
+}
+
+.navbar-nav li a {
+    color: white !important;
+    font-weight: 600;
+    float: right;
+    text-align: left;
+}
+
+.fa-bars {
+    color: white;
+    font-size: 30px !important;
+}
+
+.navbar-toggler {
+    outline: none;
+}
+
+/* -------------------------  BANNER SECTION ------------------------- */
+
+#banner {
+    background-image: linear-gradient(to left, #004624, #00D16D);
+    color: white;
+    padding-top: 5%;
+}
+
+.promo-title{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 10vh;
+}
+
+#banner .fa-play-circle-o{
+    color: white;
+}
+
+#banner a{
+    color: white;
+    text-decoration: none;
+}
+
+.play-btn{
+    width: 45px;
+    margin: 20px;
+}
